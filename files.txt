@@ -1,0 +1,8 @@
+# My shell configs
+~/.bashrc_jimmy
+
+# vim configs
+~/.vimrc
+
+# tmux configs
+~/.tmux.conf
