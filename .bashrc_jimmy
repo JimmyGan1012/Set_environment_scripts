@@ -1,0 +1,20 @@
+#tmux alias
+alias t="tmux"
+alias ta="tmux attach -t"
+alias tv="tmux split-window -v"
+alias th="tmux split-window -h"
+alias tl="tmux ls"
+
+
+#github alias
+alias g="git"
+alias gp="git pull --rebase"
+alias gs="git status"
+alias gl="git log"
+
+#open file explorer
+alias file_explorer="xdg-open ."
+
+#vivado
+alias vivado_source="source /tools/Xilinx/Vivado/2022.1/settings64.sh"
+
