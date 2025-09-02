@@ -8,13 +8,19 @@ alias tl="tmux ls"
 
 #github alias
 alias g="git"
-alias gp="git pull --rebase"
+alias gd="git diff"
 alias gs="git status"
 alias gl="git log"
+gsm() {
+  git show $1; git diff "$1^" "$1"
+}
+gsmv() {
+  git difftool "$1^" "$1"
+}
 
-#open file explorer
-alias file_explorer="xdg-open ."
+alias v="vim"
+alias r="realpath"
 
-#vivado
-alias vivado_source="source /tools/Xilinx/Vivado/2022.1/settings64.sh"
+umask 0002
 
+alias f="find"
