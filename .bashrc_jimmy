@@ -24,3 +24,9 @@ alias r="realpath"
 umask 0002
 
 alias f="find"
+alias h="history"
+
+alias grtl='grep -R --include="*sv"'
+alias gpkg='grep -R --include="*svp"'
+
+alias malert='echo "The task finished successfully." | mail -s "Shell Task Complete" jimmy@rivosinc.com'
